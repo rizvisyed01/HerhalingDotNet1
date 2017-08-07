@@ -6,13 +6,18 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace Herhaling1.Controllers
 {
+    [Route("")]
+    [Route("[controller]")]
     public class HomeController : Controller
     {
+        [Route("")]
+        [Route("[action]")]
         public IActionResult Index()
         {
             return View();
         }
-
+        
+        [Route("[action]")]
         public IActionResult About()
         {
             ViewData["Message"] = "Your application description page.";
@@ -20,6 +25,7 @@ namespace Herhaling1.Controllers
             return View();
         }
 
+        [Route("[action]")]
         public IActionResult Contact()
         {
             ViewData["Message"] = "Your contact page.";
@@ -27,6 +33,7 @@ namespace Herhaling1.Controllers
             return View();
         }
 
+        [Route("[action]")]
         public IActionResult Error()
         {
             return View();
