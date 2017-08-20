@@ -1,0 +1,23 @@
+﻿@model ICollection<Herhaling1.ViewModels.StudentBasic>
+
+<h1>Dit is een lijst van studenten</h1>
+
+<table>
+    <tr>
+        <th>@Html.LabelFor(i => Model.First().Studnr)</th>
+        <th>@Html.LabelFor(i => Model.First().Voornaam)</th>
+        <th>@Html.LabelFor(i => Model.First().Familienaam)</th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@Html.DisplayFor(i => item.Studnr)</td>
+            <td>@Html.DisplayFor(i => item.Voornaam)</td>
+            <td>@Html.DisplayFor(i => item.Familienaam)</td>
+        </tr>
+
+    }
+
+</table>
+
+

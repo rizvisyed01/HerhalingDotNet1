@@ -1,5 +1,5 @@
---temp-output:C:\Users\Shan\Source\Repos\HerhalingDotNet1\Herhaling1\src\Herhaling1\obj\Debug\netcoreapp1.0\
---out:C:\Users\Shan\Source\Repos\HerhalingDotNet1\Herhaling1\src\Herhaling1\bin\Debug\netcoreapp1.0\Herhaling1.dll
+--temp-output:C:\Users\Shan\Source\Repos\HerhalingDotNet1\Herhaling1\src\Herhaling1\bin\src\Herhaling1\obj\Debug\netcoreapp1.0\
+--out:C:\Users\Shan\Source\Repos\HerhalingDotNet1\Herhaling1\src\Herhaling1\bin\src\Herhaling1\bin\Debug\netcoreapp1.0\Herhaling1.dll
 --define:DEBUG
 --define:TRACE
 --define:NETCOREAPP1_0
@@ -202,17 +202,9 @@
 --reference:C:\Users\Shan\.nuget\packages\System.Threading.Timer\4.0.1\ref\netstandard1.2\System.Threading.Timer.dll
 --reference:C:\Users\Shan\.nuget\packages\System.Xml.ReaderWriter\4.0.11\ref\netstandard1.3\System.Xml.ReaderWriter.dll
 --reference:C:\Users\Shan\.nuget\packages\System.Xml.XDocument\4.0.11\ref\netstandard1.3\System.Xml.XDocument.dll
---resource:"C:\Users\Shan\Source\Repos\HerhalingDotNet1\Herhaling1\src\Herhaling1\obj\Debug\netcoreapp1.0\Herhaling1dotnet-compile.deps.json",Herhaling1.deps.json
+--resource:"C:\Users\Shan\Source\Repos\HerhalingDotNet1\Herhaling1\src\Herhaling1\bin\src\Herhaling1\obj\Debug\netcoreapp1.0\Herhaling1dotnet-compile.deps.json",Herhaling1.deps.json
 C:\Users\Shan\Source\Repos\HerhalingDotNet1\Herhaling1\src\Herhaling1\Program.cs
 C:\Users\Shan\Source\Repos\HerhalingDotNet1\Herhaling1\src\Herhaling1\Startup.cs
 C:\Users\Shan\Source\Repos\HerhalingDotNet1\Herhaling1\src\Herhaling1\Controllers\HomeController.cs
 C:\Users\Shan\Source\Repos\HerhalingDotNet1\Herhaling1\src\Herhaling1\Controllers\StudentController.cs
-C:\Users\Shan\Source\Repos\HerhalingDotNet1\Herhaling1\src\Herhaling1\Entities\Boete.cs
-C:\Users\Shan\Source\Repos\HerhalingDotNet1\Herhaling1\src\Herhaling1\Entities\Cursussen.cs
-C:\Users\Shan\Source\Repos\HerhalingDotNet1\Herhaling1\src\Herhaling1\Entities\Leerkrachten.cs
-C:\Users\Shan\Source\Repos\HerhalingDotNet1\Herhaling1\src\Herhaling1\Entities\SchoolContext.cs
-C:\Users\Shan\Source\Repos\HerhalingDotNet1\Herhaling1\src\Herhaling1\Entities\Studenten.cs
-C:\Users\Shan\Source\Repos\HerhalingDotNet1\Herhaling1\src\Herhaling1\Entities\StudentenCursussen.cs
 C:\Users\Shan\Source\Repos\HerhalingDotNet1\Herhaling1\src\Herhaling1\Models\Student.cs
-C:\Users\Shan\Source\Repos\HerhalingDotNet1\Herhaling1\src\Herhaling1\Repositories\SchoolRepository.cs
-C:\Users\Shan\Source\Repos\HerhalingDotNet1\Herhaling1\src\Herhaling1\ViewModels\StudentBasic.cs

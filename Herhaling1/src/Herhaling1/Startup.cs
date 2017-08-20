@@ -7,6 +7,9 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
+using Herhaling1.Entities;
+using Microsoft.EntityFrameworkCore;
+using Herhaling1.Repositories;
 
 namespace Herhaling1
 {
@@ -29,6 +32,12 @@ namespace Herhaling1
         {
             // Add framework services.
             services.AddMvc();
+            services.AddDbContext<SchoolContext>(
+
+                options => options.UseSqlServer(Configuration.GetConnectionString("SchoolDatabase"))
+
+                );
+            services.AddScoped<SchoolRepository>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
